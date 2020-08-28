@@ -55,7 +55,7 @@ public class TaskManager {
         String date = validateDate();
         System.out.println("Is this task important? true/false");
         String isImportant = validateIsImp();
-        String finalConcat = title + "  " + date + "  " + isImportant;
+        String finalConcat = title + " " + date + "  " + isImportant;
         data.add(finalConcat);
         return data;
     }
