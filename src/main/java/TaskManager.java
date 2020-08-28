@@ -78,6 +78,7 @@ public class TaskManager {
                 scan.next();
                 System.out.println(ConsoleColors.RED + "Input data not a number, please retype index again: "
                         + ConsoleColors.RESET);
+                continue;
             }
             int index = scan.nextInt();
             if (index < 0 || index > (data.size() - 1)) {
